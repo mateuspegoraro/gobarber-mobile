@@ -44,7 +44,7 @@
       ],
       "prettier/prettier": "error",
       "react/prop-types": [2, { "ignore": ["children"] }],
-      "react/jsx-props-no-spreading":"off"
+      "react/jsx-props-no-spreading":"off",
     },
     "settings": {
       "import/resolver": {
