@@ -107,6 +107,7 @@ const SignIn: React.FC = () => {
                 placeholder="E-mail"
                 returnKeyType="next"
                 onSubmitEditing={() => passwordInputRef.current?.focus()}
+                defaultValue="pegoraro.mateus@gmail.com"
               />
               <Input
                 ref={passwordInputRef}
@@ -116,6 +117,7 @@ const SignIn: React.FC = () => {
                 placeholder="Senha"
                 returnKeyType="send"
                 onSubmitEditing={() => formRef.current?.submitForm()}
+                defaultValue="123456"
               />
               <Button onPress={() => formRef.current?.submitForm()}>
                 Entrar
