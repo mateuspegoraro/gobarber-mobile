@@ -52,7 +52,7 @@ export const UserAvatar = styled.Image`
   height: 56px;
   border-radius: 28px;
 
-  margin-left: auto;#f4ede8
+  margin-left: auto;
 `;
 
 export const Content = styled.ScrollView``;
