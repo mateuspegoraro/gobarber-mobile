@@ -104,7 +104,6 @@ const CreateAppointment: React.FC = () => {
     (event: any, date: Date | undefined) => {
       if (Platform.OS === 'android') {
         setShowDatePicker(false);
-        navigate;
       }
       if (date) {
         setSelectedDate(date);
